@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: nginx
+      version: "15.9.1"  # You can update this if needed
       sourceRef:
         kind: HelmRepository
         name: bitnami
