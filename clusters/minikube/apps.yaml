@@ -5,9 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  path: ./clusters/minikube/apps
+  path: ./apps
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
-  validation: client
